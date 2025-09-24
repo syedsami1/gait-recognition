@@ -157,13 +157,21 @@ The architecture consists of CNN layers for feature extraction and LSTM layers f
 
 Training Accuracy Curve:
 The training accuracy curve shows how the model learned over multiple epochs.
+<img width="677" height="378" alt="accuracy" src="https://github.com/user-attachments/assets/235ad9d3-2935-43ca-a55a-b297067090bf" />
+
+<img width="636" height="872" alt="Screenshot 2025-09-24 213724" src="https://github.com/user-attachments/assets/db3ddd5c-8659-4f2a-9866-705d3e6431b3" />
 
 Training Loss Curve:
 The training loss curve tracks the model's performance during training.
+<img width="677" height="378" alt="train_val_loss" src="https://github.com/user-attachments/assets/651a4b7b-6aa5-4761-b946-e14f4ac7634c" />
+
 
 Confusion Matrix:
 The confusion matrix below shows how well the model is classifying the activities.
 ---
+<img width="793" height="710" alt="confusion matrix" src="https://github.com/user-attachments/assets/950d5eb0-e47a-4cc7-b029-b2a5e9359c7b" />
+
+<img width="493" height="91" alt="Screenshot 2025-09-24 213758" src="https://github.com/user-attachments/assets/fa9234df-2f3a-48d7-bc04-9f2049f6b66d" />
 
 ### **Conclusion**
 
