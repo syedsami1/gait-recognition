@@ -146,7 +146,23 @@ def check_in_from_raw_window(raw_window, threshold=0.6):
         print(f"❌ ACCESS DENIED -> top={subj_label}, conf={prob:.2f} < {threshold}")
     return subj_label, float(prob)
 ```
+### **Results**
 
+Below are some important results from the model training and evaluation:
+
+Model Architecture Summary:
+The architecture consists of CNN layers for feature extraction and LSTM layers for sequence learning.
+<img width="1564" height="625" alt="Screenshot 2025-09-24 213407" src="https://github.com/user-attachments/assets/bf3dee0e-9f31-4a6b-bdd4-1a4befd276a0" />
+
+
+Training Accuracy Curve:
+The training accuracy curve shows how the model learned over multiple epochs.
+
+Training Loss Curve:
+The training loss curve tracks the model's performance during training.
+
+Confusion Matrix:
+The confusion matrix below shows how well the model is classifying the activities.
 ---
 
 ### **Conclusion**
